@@ -27,6 +27,6 @@ ADD src /opt/app-root/src/src
 
 RUN sh /opt/app-root/src/gradlew build
 
-RUN cp -a  /opt/app-root/src/build/libs/springboots2idemo*.jar /opt/app-root/springboots2idemo.jar
+RUN cp -a  /opt/app-root/src/build/libs/gc-gicc-converter*.jar /opt/app-root/gc-gicc-converter.jar
 
-CMD java -Xmx64m -Xss1024k -jar /opt/app-root/springboots2idemo.jar
+CMD java -Xmx64m -Xss1024k -jar /opt/app-root/gc-gicc-converter.jar
